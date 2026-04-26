@@ -1,0 +1,22 @@
+import { FaInstagram, FaGithub, FaLinkedin } from 'react-icons/fa'
+import './Footer.css'
+
+function Footer() {
+  return (
+    <footer className="footer">
+      <div className="footer-socials">
+        <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+          <FaInstagram />
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          <FaGithub />
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <FaLinkedin />
+        </a>
+      </div>
+    </footer>
+  )
+}
+
+export default Footer
