@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Nav from './components/Nav'
 import Footer from './components/Footer'
 import Home from './pages/Home'
+import BlogList from './pages/BlogList'
 import './App.css'
 
 function BlogPostPlaceholder() {
@@ -20,6 +21,7 @@ function App() {
         <main className="app-content">
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/blog" element={<BlogList />} />
             <Route path="/blog/:slug" element={<BlogPostPlaceholder />} />
           </Routes>
         </main>
