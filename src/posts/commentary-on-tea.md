@@ -1,6 +1,6 @@
 ---
 title: Commentary on Tea
-category: food & drink
+tags: food & drink, tea
 date: 2025-04-15
 description: Apparently a lot of "alishan oolong" comes from China, smh.
 ---

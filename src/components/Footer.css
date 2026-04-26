@@ -2,7 +2,19 @@
   background-color: var(--color-footer-bg);
   padding: 1.75rem 2rem;
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+.footer-copyright,
+.footer-spacer {
+  flex: 1;
+}
+
+.footer-copyright {
+  font-size: 0.75rem;
+  color: var(--color-footer-icon);
+  opacity: 0.6;
 }
 
 .footer-socials {

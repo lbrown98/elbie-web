@@ -14,12 +14,32 @@ function parseFrontmatter(raw) {
   return data
 }
 
+function getBody(raw) {
+  const match = raw.match(/^---\r?\n[\s\S]*?\r?\n---\r?\n?([\s\S]*)/)
+  return match ? match[1].trim() : raw.trim()
+}
+
+function parseTags(raw) {
+  if (!raw) return []
+  return raw.split(',').map(t => t.trim()).filter(Boolean)
+}
+
+export function loadPostBySlug(slug) {
+  const entry = Object.entries(postModules)
+    .find(([path]) => path.split('/').pop().replace('.md', '') === slug)
+  if (!entry) return null
+  const [, raw] = entry
+  const data = parseFrontmatter(raw)
+  const body = getBody(raw)
+  return { slug, body, ...data, tags: parseTags(data.tags) }
+}
+
 export function loadAllPosts() {
   return Object.entries(postModules)
     .map(([path, raw]) => {
       const data = parseFrontmatter(raw)
       const slug = path.split('/').pop().replace('.md', '')
-      return { slug, ...data }
+      return { slug, ...data, tags: parseTags(data.tags) }
     })
     .sort((a, b) => new Date(b.date) - new Date(a.date))
 }

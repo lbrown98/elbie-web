@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import { loadAllPosts } from '../utils/posts'
 import BlogCard from '../components/BlogCard'
 import InspirationCard from '../components/InspirationCard'
@@ -7,13 +8,19 @@ import './Home.css'
 const posts = loadAllPosts().slice(0, 3)
 
 function Home() {
+  useEffect(() => {
+    document.title = 'lauren brown | elbie'
+  }, [])
+
   return (
     <div className="home">
 
       {/* Hero */}
       <section className="hero">
         <div className="hero-image-wrap">
-          <div className="hero-image-circle" />
+          <div className="hero-image-circle">
+            <img src="/headshot.jpg" alt="Lauren" className="hero-image" />
+          </div>
         </div>
         <div className="hero-text">
           <h1>who am i?</h1>

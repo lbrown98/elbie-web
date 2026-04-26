@@ -1,16 +1,80 @@
-# React + Vite
+# elbie-web
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal website built with React + Vite.
 
-Currently, two official plugins are available:
+## Running locally
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```bash
+npm install
+npm run dev
+```
 
-## React Compiler
+## Project structure
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```
+public/
+  headshot.jpg        # hero image
+  resume.pdf          # linked from home page
 
-## Expanding the ESLint configuration
+src/
+  pages/
+    Home.jsx          # landing page: hero, recent posts, inspiration, resume
+    BlogList.jsx      # all posts with tag filters and card/compact view toggle
+    BlogPost.jsx      # individual post page (rendered markdown)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+  components/
+    Nav.jsx           # top navigation bar
+    Footer.jsx        # social icons and copyright footer
+    BlogCard.jsx      # post card used on home and blog list
+    InspirationCard.jsx  # external link card used on home
+
+  posts/              # blog post content (markdown with frontmatter)
+    commentary-on-tea.md
+
+  data/
+    inspiration.js    # list of inspiration links shown on home page
+
+  utils/
+    posts.js          # loads and parses all markdown posts at build time
+```
+
+## Adding a blog post
+
+Create a new `.md` file in `src/posts/`. Filename becomes the URL slug.
+
+```markdown
+---
+title: My Post Title
+tags: tag one, tag two
+date: 2025-01-01
+description: One-line summary shown on cards.
+---
+
+Post content goes here.
+```
+
+## Adding an inspiration link
+
+Edit `src/data/inspiration.js` and add an entry to the array:
+
+```js
+{ title: 'Title', url: 'https://...', type: 'blog', description: 'Short description.' }
+```
+
+Valid types: `blog`, `youtube`, `website`, `book`, `podcast`
+
+---
+
+## Todo
+
+- [ ] insert social media links
+- [ ] update about me section
+- [ ] add first blog post
+- [ ] replace inspiration cards with actual inspiration
+- [ ] add chinese version of the website
+- [ ] add photo album
+- [ ] add projects section
+- [ ] add ai vs user connect5 mini game (project)
+- [ ] add resume
+- [ ] update website titles for new sections
+

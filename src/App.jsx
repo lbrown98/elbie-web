@@ -3,15 +3,8 @@ import Nav from './components/Nav'
 import Footer from './components/Footer'
 import Home from './pages/Home'
 import BlogList from './pages/BlogList'
+import BlogPost from './pages/BlogPost'
 import './App.css'
-
-function BlogPostPlaceholder() {
-  return (
-    <div style={{ maxWidth: '800px', margin: '4rem auto', padding: '0 2rem', fontFamily: 'var(--font-body)' }}>
-      <p style={{ color: 'var(--color-text-muted)' }}>Blog post page coming soon.</p>
-    </div>
-  )
-}
 
 function App() {
   return (
@@ -22,7 +15,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/blog" element={<BlogList />} />
-            <Route path="/blog/:slug" element={<BlogPostPlaceholder />} />
+            <Route path="/blog/:slug" element={<BlogPost />} />
           </Routes>
         </main>
         <Footer />
