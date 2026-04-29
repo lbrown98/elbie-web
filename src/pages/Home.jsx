@@ -35,7 +35,7 @@ function Home() {
           <p>
             philsophy. history. reading. writing. learning languages. data.
             weiqi. mahjong. gardening. taijiquan. meditation. tea. coffee. cooking.
-            wine. climbing. whitewater kayaking. freediving. snowboarding. cycling.
+            wine. climbing. whitewater kayaking. freediving. snowboarding. cycling?
           </p>
 
           <h4>note</h4>

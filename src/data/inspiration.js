@@ -3,22 +3,16 @@
 
 const inspiration = [
   {
-    title: 'Wait But Why',
-    url: 'https://waitbutwhy.com',
+    title: 'Chengwei Hu: Blog',
+    url: 'https://chengweihu.com/',
     type: 'blog',
-    description: 'Long-form deep dives on everything from AI to procrastination. Stick figures included.',
+    description: 'An beautifully crafted blog with a stunning visualization of interconnected ideas and a writing manifesto that articulates why writing is important. He\'s also creating a \'Duolingo for anything\' app called Wondering that I\'m very excited for.',
   },
   {
-    title: 'Kurzgesagt',
-    url: 'https://www.youtube.com/@kurzgesagt',
-    type: 'youtube',
-    description: 'Beautifully animated explainers on science, philosophy, and existential dread.',
-  },
-  {
-    title: 'Gwern.net',
-    url: 'https://www.gwern.net',
-    type: 'website',
-    description: 'One person\'s extraordinarily thorough research on statistics, psychology, and technology.',
+    title: 'Philosophize This! Podcast',
+    url: 'https://www.patreon.com/philosophizethis',
+    type: 'podcast',
+    description: 'His goal is to \'translate and humanize philosophy\' so that it\'s accessible to everyone. Where most of my philosophy inspiration comes from.',
   },
 ]
 
