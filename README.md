@@ -88,9 +88,8 @@ Valid types: `blog`, `youtube`, `website`, `book`, `podcast`
 ## Todo
 
 - [ ] add resume
-- [ ] replace inspiration cards with actual inspiration
 - [ ] add a few pictures
-- [ ] publish website
+- [ ] update mobile version (home page primarily)
 - [ ] link website on ig, linkedin, etc.
 - [ ] dark mode for the website
 - [ ] add chinese version of the website
