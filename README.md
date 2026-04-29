@@ -88,7 +88,6 @@ Valid types: `blog`, `youtube`, `website`, `book`, `podcast`
 ## Todo
 
 - [ ] add a few pictures
-- [ ] link website on ig, linkedin, etc.
 - [ ] add chinese version of the website
 - [ ] add projects section
 - [ ] add ai vs user connect5 mini game (project)

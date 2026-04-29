@@ -25,7 +25,8 @@ function Home() {
         <div className="hero-text">
           <h1>who am i?</h1>
           <p>
-            hello world. my name is lauren and i am a data engineer.
+            hello world. my name is lauren and i am a data engineer. 
+            i used to live in taiwan and speak mandarin. now i live in dc.
             i have many hobbies and interests, and this blog is a place 
             for me to explore those more deeply. also it's a place for me
             to share things that's not traditional social media.
@@ -33,7 +34,7 @@ function Home() {
             
           <h1>unorganized list of interests and hobbies</h1>
           <p>
-            philsophy. history. reading. writing. learning languages. data.
+            philosophy. history. reading. writing. learning languages. data.
             weiqi. mahjong. gardening. taijiquan. meditation. tea. coffee. cooking.
             wine. climbing. whitewater kayaking. freediving. snowboarding. cycling?
           </p>
