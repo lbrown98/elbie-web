@@ -19,7 +19,7 @@ function Home() {
       <section className="hero">
         <div className="hero-image-wrap">
           <div className="hero-image-circle">
-            <img src="/headshot.jpg" alt="Lauren" className="hero-image" />
+            <img src={`${import.meta.env.BASE_URL}headshot.jpg`} alt="Lauren" className="hero-image" />
           </div>
         </div>
         <div className="hero-text">
@@ -72,7 +72,7 @@ function Home() {
         <h2>resume</h2>
         <p>view or download my resume below.</p>
         <a
-          href="/resume.pdf"
+          href={`${import.meta.env.BASE_URL}resume.pdf`}
           target="_blank"
           rel="noopener noreferrer"
           className="resume-btn"
