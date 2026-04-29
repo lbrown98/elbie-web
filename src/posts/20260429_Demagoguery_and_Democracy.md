@@ -44,7 +44,7 @@ As a result, I have felt almost _unfree_ to think critically about political iss
 ### The snowball effect of profit-driven media
 > “For people competing for media markets, consumers, voters, and so on, demagoguery is likely to be the more effective rhetorical strategy, and more rhetors will choose it. And rhetors have to out-demagogue each other to get attention, buyers, voters.” (79)
 
-> “The point of such public discourse is not to find the best solution to a community’s problems, but to triumph over the other side.” (pg 84) 
+> “The point of such public discourse is not to find the best solution to a community’s problems, but to triumph over the other side.” (84) 
 
 > "Television programs that offer nuanced analyses can’t compete with programs that simultaneously enrage and please; talk radio that is fair to all positions is too cognitively complex to be engaging; and print or online media that says they might have a point is frustrating." (89)
 
@@ -67,7 +67,7 @@ Ok so by this point in the book, we’ve established what demagoguery is, what i
 - Argue with people who are repeating demagogic talking points (she introduces and explains a lot of fallacies in this section that the reader can use to argue with people over) 
 - Support and fight for democratic deliberation
 
-An overarching theme of this section is: we fight through education and empathy. To quote the book yet again, “demagoguery about _them_ is undone by empathy” (pg 99). If you can find a way to help others see things from the perspective of their enemies (for lack of a better word), it’s a key way to help people realize that issues are more complicated than they initially realize, and their conclusion isn’t the obvious conclusion. 
+An overarching theme of this section is: we fight through education and empathy. To quote the book yet again, “demagoguery about _them_ is undone by empathy” (99). If you can find a way to help others see things from the perspective of their enemies (for lack of a better word), it’s a key way to help people realize that issues are more complicated than they initially realize, and their conclusion isn’t the obvious conclusion. 
 
 While I don’t disagree with these points, this conclusion lends itself to considerable despair because: how the _heck_ are we going to impose empathy for the out-group en masse? This strategy feels similar to: in order to pursue the goal of reducing our carbon footprint, you as an individual should cease to eat meat. If every individual decided to become vegetarian, yeah there’d be a massive positive impact on global GHG emissions, but the vast majority of people will _not_ voluntarily decide to become vegetarian. Even if it’s not good for our planet, people like meat! 
 
@@ -81,7 +81,7 @@ This book was informative, important, and very well written. The author did a gr
 Highly recommend 10/10. Everyone should read this.
 
 ### Addendum: 2026/04/21 VA redistricting vote 
-> “Demagoguery [...] presents the situation of the in-group as so dire that we are justified in any actions, deeming values such as fairness across groups [...] unnecessary and possibly suicidal.” (pg 34-35)
+> “Demagoguery [...] presents the situation of the in-group as so dire that we are justified in any actions, deeming values such as fairness across groups [...] unnecessary and possibly suicidal.” (34-35)
 
 In case you’re somehow not tired from reading this very long book review, here’s a fun fact: I finished reading this book during the period of time before the 2026 midterm elections where states across the country were trying to emergency-gerrymander their districts in an attempt to gain more seats in Congress. The background is that: Trump encouraged Texas to redistrict, and they did. Then California got pissed and retaliated by also redistricting, and then it just cascaded from there.[^3] 
 
