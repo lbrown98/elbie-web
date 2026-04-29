@@ -123,5 +123,5 @@
 }
 
 .resume-btn:hover {
-  background-color: #2f5440;
+  background-color: var(--color-primary-hover);
 }

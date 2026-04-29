@@ -34,3 +34,19 @@
 .nav-links a:hover {
   color: #fff;
 }
+
+.nav-theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  transition: color 0.2s;
+}
+
+.nav-theme-toggle:hover {
+  color: #fff;
+}

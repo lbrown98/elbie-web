@@ -16,8 +16,23 @@
   --color-footer-bg: #1e2820;
   --color-footer-icon: #8fa894;
 
+  --color-primary-hover: #2f5440;
   --font-heading: 'Lora', Georgia, serif;
   --font-body: 'Inter', system-ui, sans-serif;
+}
+
+html.dark {
+  --color-bg: #1b1f1c;
+  --color-primary: #6aaa7c;
+  --color-sage: #8ab492;
+  --color-earth: #c9956a;
+  --color-text: #e6e1d5;
+  --color-text-muted: #98a493;
+  --color-card: #232820;
+  --color-border: #2e3830;
+  --color-footer-bg: #111510;
+  --color-footer-icon: #7a9e80;
+  --color-primary-hover: #5a9a6c;
 }
 
 body {

@@ -105,7 +105,7 @@
 }
 
 .blog-post-body a:hover {
-  color: #2f5440;
+  color: var(--color-primary);
 }
 
 .blog-post-body code {
