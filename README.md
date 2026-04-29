@@ -87,7 +87,6 @@ Valid types: `blog`, `youtube`, `website`, `book`, `podcast`
 
 ## Todo
 
-- [ ] add resume
 - [ ] add a few pictures
 - [ ] update mobile version (home page primarily)
 - [ ] link website on ig, linkedin, etc.

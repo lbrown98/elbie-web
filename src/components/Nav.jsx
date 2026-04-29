@@ -10,7 +10,7 @@ function Nav() {
           <Link to="/">home</Link>
           <Link to="/blog">blog</Link>
           <Link to="/photos">photos</Link>
-          <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">resume</a>
+          <a href="https://docs.google.com/document/d/1TyRh3Nkf5zsWoLRd07ws81b0xAJ8QFDV/edit?usp=sharing&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer">resume</a>
         </div>
       </div>
     </nav>

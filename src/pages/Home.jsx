@@ -72,7 +72,7 @@ function Home() {
         <h2>resume</h2>
         <p>view or download my resume below.</p>
         <a
-          href={`${import.meta.env.BASE_URL}resume.pdf`}
+          href="https://docs.google.com/document/d/1TyRh3Nkf5zsWoLRd07ws81b0xAJ8QFDV/edit?usp=sharing&rtpof=true&sd=true"
           target="_blank"
           rel="noopener noreferrer"
           className="resume-btn"
