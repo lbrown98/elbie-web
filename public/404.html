@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <script>
+      // Encode the path as a query param and redirect to the root.
+      // The app's index.html will decode it and restore the URL.
+      var path = window.location.pathname + window.location.search + window.location.hash;
+      window.location.replace('/?p=' + encodeURIComponent(path));
+    </script>
+  </head>
+  <body></body>
+</html>
