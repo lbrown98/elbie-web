@@ -20,11 +20,28 @@
 }
 
 .hero-image-circle {
-  width: 260px;
-  height: 260px;
+  width: clamp(180px, 24vw, 260px);
+  height: clamp(180px, 24vw, 260px);
   border-radius: 50%;
   overflow: hidden;
   flex-shrink: 0;
+}
+
+@media (max-width: 720px) {
+  .hero {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.75rem;
+  }
+
+  .hero-image-circle {
+    width: 130px;
+    height: 130px;
+  }
+
+  .hero-text {
+    text-align: left;
+  }
 }
 
 .hero-image {

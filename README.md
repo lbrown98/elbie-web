@@ -88,7 +88,6 @@ Valid types: `blog`, `youtube`, `website`, `book`, `podcast`
 ## Todo
 
 - [ ] add a few pictures
-- [ ] update mobile version (home page primarily)
 - [ ] link website on ig, linkedin, etc.
 - [ ] dark mode for the website
 - [ ] add chinese version of the website
