@@ -89,7 +89,6 @@ Valid types: `blog`, `youtube`, `website`, `book`, `podcast`
 
 - [ ] add a few pictures
 - [ ] link website on ig, linkedin, etc.
-- [ ] dark mode for the website
 - [ ] add chinese version of the website
 - [ ] add projects section
 - [ ] add ai vs user connect5 mini game (project)
