@@ -29,7 +29,7 @@ function Home() {
             i used to live in taiwan and speak mandarin. now i live in dc.
             i have many hobbies and interests, and this blog is a place 
             for me to explore those more deeply. also it's a place for me
-            to share things that's not traditional social media.
+            to share things rather than using traditional social media.
           </p>
             
           <h1>unorganized list of interests and hobbies</h1>
