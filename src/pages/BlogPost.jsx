@@ -1,6 +1,7 @@
 import { useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import ReactMarkdown from 'react-markdown'
+import remarkGfm from 'remark-gfm'
 import { loadPostBySlug } from '../utils/posts'
 import './BlogPost.css'
 
@@ -43,7 +44,7 @@ function BlogPost() {
       </header>
 
       <article className="blog-post-body">
-        <ReactMarkdown>{post.body}</ReactMarkdown>
+        <ReactMarkdown remarkPlugins={[remarkGfm]}>{post.body}</ReactMarkdown>
       </article>
     </div>
   )
