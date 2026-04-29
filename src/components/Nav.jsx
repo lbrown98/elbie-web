@@ -9,6 +9,7 @@ function Nav() {
         <div className="nav-links">
           <Link to="/">home</Link>
           <Link to="/blog">blog</Link>
+          <Link to="/photos">photos</Link>
           <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">resume</a>
         </div>
       </div>

@@ -25,27 +25,24 @@ function Home() {
         <div className="hero-text">
           <h1>who am i?</h1>
           <p>
-            hello world. my name is lauren and i am a software engineer.
-            i have many hobbies and many things that i want to learn about.
-            for example, philsophy. reading, writing, tea. learning languages.
-            i am also interested in tea, coffee, cooking, and The Outdoors TM.
-            physical activities include climbing, whitewater kayaking, freediving, and snowboarding.
-            i have too many things that i want to do and generally not enough time.
-            also i feel like i have a lot of thoughts but i:
-            a. don't always retain them since i forget to write them down / where i wrote them down
-            b. don't have a good place as of now to share them
+            hello world. my name is lauren and i am a data engineer.
+            i have many hobbies and interests, and this blog is a place 
+            for me to explore those more deeply. also it's a place for me
+            to share things that's not traditional social media.
+          </p>
+            
+          <h1>unorganized list of interests and hobbies</h1>
+          <p>
+            philsophy. history. reading. writing. learning languages. data.
+            weiqi. mahjong. gardening. taijiquan. meditation. tea. coffee. cooking.
+            wine. climbing. whitewater kayaking. freediving. snowboarding. cycling.
           </p>
 
-          <h1>why website?</h1>
+          <h4>note</h4>
           <p>
-            in my day-to-day i primarily do data engineering and backend stuff.
-            this website is a playground for me to experiment with web development and share my projects.
-            yes, i know that ai is going to make web development mostly obsolete, thanks for reminding me.
-            anyway i also want a website so i finally have a place to collect my thoughts that's not on traditional social media.
-            stay tuned for more updates and projects in the future!
-            {/* something here about traditional social media feeling very shallow and performative */}
-            {/* something here about social media / short form content and adhd */}
-            {/* write something eventually about how i feel about ai and losing brain funcitoning */}
+            not all hobbies are on the forefront of my mind at all times. 
+            content will rotate based on what is currently most interesting to me,
+            or what i've been learning about recently.
           </p>
         </div>
       </section>
