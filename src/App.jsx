@@ -5,6 +5,7 @@ import Home from './pages/Home'
 import BlogList from './pages/BlogList'
 import BlogPost from './pages/BlogPost'
 import PhotoAlbum from './pages/PhotoAlbum'
+import NotFound from './pages/NotFound'
 import './App.css'
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
             <Route path="/blog" element={<BlogList />} />
             <Route path="/blog/:slug" element={<BlogPost />} />
             <Route path="/photos" element={<PhotoAlbum />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
         <Footer />

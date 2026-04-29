@@ -22,9 +22,12 @@ function BlogPost() {
 
   if (!post) {
     return (
-      <div className="blog-post-not-found">
+      <div className="blog-post-not-found" style={{ textAlign: 'center' }}>
+        <h1>404</h1>
         <p>Post not found.</p>
         <Link to="/blog">← back to blog</Link>
+        <br /><br />
+        <img src={`${import.meta.env.BASE_URL}404_go_back.gif`} alt="404" style={{ display: 'block', margin: '0 auto' }} />
       </div>
     )
   }
