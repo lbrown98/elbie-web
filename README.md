@@ -81,7 +81,7 @@ Edit `src/data/inspiration.js` and add an entry to the array:
 { title: 'Title', url: 'https://...', type: 'blog', description: 'Short description.' }
 ```
 
-Valid types: `blog`, `youtube`, `website`, `book`, `podcast`
+Example types: `blog`, `youtube`, `website`, `book`, `podcast`
 
 ---
 

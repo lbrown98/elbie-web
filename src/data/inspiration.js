@@ -1,5 +1,5 @@
 // Add or remove entries here to update the inspiration section.
-// Supported types: 'blog', 'youtube', 'website', 'book', 'podcast'
+// Example types: 'blog', 'youtube', 'website', 'book', 'podcast'
 
 const inspiration = [
   {
@@ -14,6 +14,12 @@ const inspiration = [
     type: 'podcast',
     description: 'His goal is to \'translate and humanize philosophy\' so that it\'s accessible to everyone. Where most of my philosophy inspiration comes from.',
   },
+  {
+    title: 'CGP Grey',
+    url: 'https://www.youtube.com/@CGPGrey/',
+    type: 'youtube',
+    description: 'CGP Grey is deeply passionate about some pretty niche things, like flag design, hexagons, and transportation. His videos are well-researched and incredily interesting, and his sense of humor and storytelling make them deeply enjoyable.',
+  }
 ]
 
 export default inspiration
