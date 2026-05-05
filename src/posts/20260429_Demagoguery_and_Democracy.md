@@ -7,7 +7,7 @@ description: Overview + thoughts on Demagoguery and Democracy by Patricia Robert
 
 Welcome, everyone, to my first book review. Today (and for the past several weeks, only this time in writing!), I'm examining the book _Demagoguery and Democracy_ by Patricia Roberts-Miller. This book explores what demagoguery is, why it’s dangerous, and attempts to give some tips on how we can reverse it. In this review, I’m going to go through some of the ideas that really stood out and spoke to me, make some connections with our current global political climate, and explain how this book and its contents have affected me on a personal level. Let’s get started!
 
-![demagoguery definition](/blog_pictures/demagoguery-definition.png)
+![demagoguery definition](/blog_pictures/demagoguery_definition.png)
 
 ### Naïve Realism, Relativism, and The Truth™
 > “If we want to think of ourselves as people with good judgement, or if ambiguity and complexity makes us uncomfortable, it will be painful to look back at decisions and acknowledge our own participation in the mistake. We will face substantial cognitive dissonance between our view of ourselves as good people with good judgement and an assessment of our past actions that acknowledges the mistakes. Demagoguery helps resolve that cognitive dissonance by telling us that we can stop questioning ourselves and our judgement.” (26-27)

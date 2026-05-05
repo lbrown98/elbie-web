@@ -47,7 +47,7 @@ function BlogPost() {
       </header>
 
       <article className="blog-post-body">
-        <ReactMarkdown remarkPlugins={[remarkGfm]}>{post.body}</ReactMarkdown>
+        <ReactMarkdown remarkPlugins={[remarkGfm]} components={{ a: ({node, ...props}) => <a {...props} target="_blank" rel="noopener noreferrer" /> }}>{post.body}</ReactMarkdown>
       </article>
     </div>
   )
