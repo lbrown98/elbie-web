@@ -6,6 +6,9 @@ import inspiration from '../data/inspiration'
 import './Home.css'
 
 const posts = loadAllPosts().slice(0, 3)
+const recentInspiration = [...inspiration]
+  .sort((a, b) => (b.month ?? '').localeCompare(a.month ?? ''))
+  .slice(0, 3)
 
 function Home() {
   useEffect(() => {
@@ -62,7 +65,7 @@ function Home() {
       <section className="home-inspiration">
         <h2>inspiration</h2>
         <div className="home-inspiration-grid">
-          {inspiration.map(item => (
+          {recentInspiration.map(item => (
             <InspirationCard key={item.url} {...item} />
           ))}
         </div>
