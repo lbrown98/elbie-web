@@ -47,7 +47,10 @@ function BlogPost() {
       </header>
 
       <article className="blog-post-body">
-        <ReactMarkdown remarkPlugins={[remarkGfm]} components={{ a: ({node, ...props}) => <a {...props} target="_blank" rel="noopener noreferrer" /> }}>{post.body}</ReactMarkdown>
+        <ReactMarkdown remarkPlugins={[remarkGfm]} components={{ a: ({node, href, ...props}) => {
+            const isExternal = href?.startsWith('http')
+            return <a href={href} {...props} {...(isExternal ? { target: '_blank', rel: 'noopener noreferrer' } : {})} />
+          } }}>{post.body}</ReactMarkdown>
       </article>
     </div>
   )

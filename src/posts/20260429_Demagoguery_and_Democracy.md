@@ -85,19 +85,20 @@ Highly recommend 10/10. Everyone should read this.
 
 In case you’re somehow not tired from reading this very long book review, here’s a fun fact: I finished reading this book during the period of time before the 2026 midterm elections where states across the country were trying to emergency-gerrymander their districts in an attempt to gain more seats in Congress. The background is that: Trump encouraged Texas to redistrict, and they did. Then California got pissed and retaliated by also redistricting, and then it just cascaded from there.[^3] 
 
-Before understanding the context, I read the VA special election to “redistrict” as a scummy gerrymandering scheme. Then I was informed that it was an attempt to “cancel out other gerrymandering,” which makes the situation more complicated. It’s always more complicated. 
+Before understanding the context, I read the VA special election to “redistrict” as a scummy gerrymandering scheme. Then I was informed that it was an attempt to “cancel out other gerrymandering,”[^4] which makes the situation more complicated. It’s always more complicated. 
 
 I am incredibly anti-gerrymandering by principle. At the same time, with all the changes that have happened in our country over the last couple years, it’s genuinely scary to think about what might be possible with a Republican controlled Congress. How much of my perceived reality is real vs what’s being sold to me by the echo chamber I’m likely floating in?
 
-In the end, the “yes” vote won, with 51.7% of the state voting for redistricting and 48.3% voting against it[^4]. It feels wrong that less than 104k votes should decide the fate of almost 8.9 million voters. Does the potential for what Trump might do with a Republican controlled congress justify silencing all those voices? To me, the answer is not obvious.
+In the end, the “yes” vote won, with 51.7% of the state voting for redistricting and 48.3% voting against it.[^5] It feels wrong that less than 104k votes should decide the fate of almost 8.9 million voters. Does the potential for what Trump might do with a Republican controlled congress justify silencing all those voices? To me, the answer is not obvious.
 
 Did I make the right decision? History will tell. At least I thought through it.
 
 ______ 
 
-Thank you for reading! In the spirit of democratic deliberation, I would love to hear what you think about all this. If you have my number, feel free to text me; otherwise feel free to message me on Instagram or LinkedIn. Please be patient if I take a few days to respond, I’m working hard to not be glued to my phone :) 
+Thank you for reading! In the spirit of democratic deliberation, I would love to hear what you think about all this. If you have my number, feel free to text me; otherwise feel free to message me on Instagram, LinkedIn, or send me an email! (see the footer for links) Please be patient if I take a few days to respond, I’m working hard to not be glued to my phone :) 
 
 [^1]: Ann Ruth Willner, The Spellbinders: Charismatic Political Leadership, as cited in Roberts-Miller, 58. 
 [^2]:  Kierkegaard, Søren, et al. The Concept of Anxiety: A Simple Psychologicallly Orienting Deliberation on the Dogmatic Issue of Hereditary Sin. Princeton University Press, 1980. 
 [^3]: Lieb, David A. “States Rush to Redraw U.S. House Districts Ahead of the November Midterm Elections.” PBS, Public Broadcasting Service, 16 Apr. 2026, www.pbs.org/newshour/politics/states-rush-to-redraw-u-s-house-districts-ahead-of-the-november-midterm-elections. 
-[^4]: Breed, Allen G., et al. “Live Results: Virginia Approves Redistricting Plan in Special Election.” PBS, Public Broadcasting Service, 21 Apr. 2026, www.pbs.org/newshour/politics/live-results-virginia-redistricting-special-election. 
+[^4]: How my roommate explained it when we discussed it
+[^5]: Breed, Allen G., et al. “Live Results: Virginia Approves Redistricting Plan in Special Election.” PBS, Public Broadcasting Service, 21 Apr. 2026, www.pbs.org/newshour/politics/live-results-virginia-redistricting-special-election. 

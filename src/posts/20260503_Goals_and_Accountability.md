@@ -59,6 +59,6 @@ Looking back across the last few months, this strategy has helped me stay accoun
 
 ______
 
-Thanks for reading! If you have any thoughts or comments on how I set and manage goals, or if you have your own methodologies that you’d like to share, I’d love to chat! Please don’t hesitate to reach out to me on socials or through text. Until next time!
+Thanks for reading! If you have any thoughts or comments on how I set and manage goals, or if you have your own methodologies that you’d like to share, I’d love to chat! Please don’t hesitate to reach out to me through socials, email, or text. Until next time!
 
 
