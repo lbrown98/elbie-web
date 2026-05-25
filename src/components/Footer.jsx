@@ -1,4 +1,4 @@
-import { FaInstagram, FaGithub, FaLinkedin, FaYoutube } from 'react-icons/fa'
+import { FaInstagram, FaGithub, FaLinkedin, FaYoutube, FaEnvelope } from 'react-icons/fa'
 import './Footer.css'
 
 function Footer() {
@@ -17,6 +17,9 @@ function Footer() {
         </a>
         <a href="https://www.linkedin.com/in/lbrown98/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
           <FaLinkedin />
+        </a>
+        <a href="mailto:laurenebrown98@gmail.com" aria-label="Email">
+          <FaEnvelope />
         </a>
       </div>
       <div className="footer-spacer" />
