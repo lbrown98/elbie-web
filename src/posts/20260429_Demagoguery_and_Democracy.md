@@ -2,7 +2,7 @@
 title: book review: demagoguery and democracy
 tags: book review, philosophy
 date: 2026-04-29
-description: Overview + thoughts on Demagoguery and Democracy by Patricia Roberts-Miller
+description: overview + thoughts on Demagoguery and Democracy by Patricia Roberts-Miller
 ---
 
 Welcome, everyone, to my first book review. Today (and for the past several weeks, only this time in writing!), I'm examining the book _Demagoguery and Democracy_ by Patricia Roberts-Miller. This book explores what demagoguery is, why it’s dangerous, and attempts to give some tips on how we can reverse it. In this review, I’m going to go through some of the ideas that really stood out and spoke to me, make some connections with our current global political climate, and explain how this book and its contents have affected me on a personal level. Let’s get started!
