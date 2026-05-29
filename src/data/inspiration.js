@@ -3,33 +3,47 @@
 
 const inspiration = [
   {
-    title: 'Chengwei Hu: Blog',
-    url: 'https://chengweihu.com/',
-    type: 'blog',
-    month: '2026-03',
-    description: 'An beautifully crafted blog with a stunning visualization of interconnected ideas and a writing manifesto that articulates why writing is important. He\'s also creating a \'Duolingo for anything\' app called Wondering that I\'m very excited for.',
-  },
-  {
-    title: 'Philosophize This! Podcast',
-    url: 'https://www.patreon.com/philosophizethis',
-    type: 'podcast',
-    month: '2026-04',
-    description: 'His goal is to \'translate and humanize philosophy\' so that it\'s accessible to everyone. Where most of my philosophy inspiration comes from.',
-  },
-  {
-    title: 'CGP Grey',
-    url: 'https://www.youtube.com/@CGPGrey/',
-    type: 'youtube',
-    month: '2026-04',
-    description: 'CGP Grey is deeply passionate about some pretty niche things, like flag design, hexagons, and transportation. His videos are well-researched and incredily interesting, and his sense of humor and storytelling make them deeply enjoyable.',
-  },
-  {
-    title: 'Patricia Roberts-Miller: Blog',
-    url: 'https://www.patriciarobertsmiller.com/',
+    title: 'At what point does delegation become self-erasure? - Todd Curtis',
+    url: 'https://tactac.substack.com/p/at-what-point-does-delegation-become',
     type: 'blog',
     month: '2026-05',
-    description: 'The author of "Demagoguery and Democacy," Roberts-Miller\'s blog offers deeper insight into the intersection of rhetoric and politics.',
-  }
+  },
+  {
+    title: 'There Is No Place For Us: Working and Homeless in America - Brian Goldstone',
+    url: 'https://www.barnesandnoble.com/w/there-is-no-place-for-us-brian-goldstone/1145899766?ean=9780593237151',
+    type: 'book',
+    month: '2026-05',
+  },
+  {
+    title: 'After Virtue (Guide) - Philosophize This!',
+    url: 'https://www.patreon.com/posts/150529755?collection=877323',
+    type: 'podcast',
+    month: '2026-05',
+  },
+  {
+    title: 'Becoming a Day Person - Herman Martinus',
+    url: 'https://herman.bearblog.dev/becoming-a-day-person/',
+    type: 'blog',
+    month: '2026-05',
+  },
+  {
+    title: 'The Unbearable Lightness of Being (Guide) - Philosophize This!',
+    url: 'https://www.patreon.com/posts/136396437?collection=877323',
+    type: 'podcast',
+    month: '2026-04',
+  },
+  {
+    title: 'You Need a Theme, Not a Goal - CGP Grey',
+    url: 'https://www.youtube.com/watch?v=NVGuFdX5guE/',
+    type: 'youtube',
+    month: '2026-04',
+  },
+  {
+    title: 'Why I Write - ChengWei Hu',
+    url: 'https://chengweihu.com/writing-manifesto/',
+    type: 'blog',
+    month: '2026-03',
+  },
 ]
 
 export default inspiration
