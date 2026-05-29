@@ -13,8 +13,7 @@ function Nav() {
         <div className="nav-links">
           <Link to="/">home</Link>
           <Link to="/blog">blog</Link>
-          <Link to="/photos">photos</Link>
-          <Link to="/inspiration">inspiration</Link>
+<Link to="/inspiration">inspiration</Link>
           <a href="https://docs.google.com/document/d/1TyRh3Nkf5zsWoLRd07ws81b0xAJ8QFDV/edit?usp=sharing&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer">resume</a>
           <button className="nav-theme-toggle" onClick={toggleTheme} aria-label="Toggle dark mode">
             {theme === 'dark' ? <FiSun /> : <FiMoon />}

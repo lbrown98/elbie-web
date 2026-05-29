@@ -1,7 +1,5 @@
-import { useState, useEffect, useMemo } from 'react'
-import { FaTh, FaList } from 'react-icons/fa'
+import { useEffect, useMemo } from 'react'
 import inspiration from '../data/inspiration'
-import InspirationCard from '../components/InspirationCard'
 import './Inspiration.css'
 
 function formatMonth(yyyyMm) {
@@ -13,8 +11,6 @@ function formatMonth(yyyyMm) {
 }
 
 function Inspiration() {
-  const [view, setView] = useState('list')
-
   useEffect(() => {
     document.title = 'lauren brown | inspiration'
   }, [])
@@ -31,54 +27,25 @@ function Inspiration() {
 
   return (
     <div className="inspiration-page">
-      <div className="inspiration-header">
-        <h1>inspiration</h1>
-        <div className="view-toggle">
-          <button
-            className={view === 'card' ? 'active' : ''}
-            onClick={() => setView('card')}
-            aria-label="Card view"
-          >
-            <FaTh />
-          </button>
-          <button
-            className={view === 'list' ? 'active' : ''}
-            onClick={() => setView('list')}
-            aria-label="List view"
-          >
-            <FaList />
-          </button>
-        </div>
-      </div>
-
+      <h1>inspiration</h1>
       {grouped.map(([month, items]) => (
         <section key={month} className="inspiration-month">
           <h2 className="inspiration-month-label">{formatMonth(month)}</h2>
-          {view === 'card' ? (
-            <div className="inspiration-grid">
-              {items.map(item => (
-                <InspirationCard key={item.url} {...item} />
-              ))}
-            </div>
-          ) : (
-            <ul className="inspiration-list">
-              {items.map(item => (
-                <li key={item.url}>
-                  <a
-                    href={item.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inspiration-list-title"
-                  >
-                    {item.title} ↗
-                  </a>
-                  {item.description && (
-                    <p className="inspiration-list-desc">{item.description}</p>
-                  )}
-                </li>
-              ))}
-            </ul>
-          )}
+          <ul className="inspiration-list">
+            {items.map(item => (
+              <li key={item.url} className="inspiration-list-item">
+                <span className="inspiration-list-type">{item.type}</span>
+                <a
+                  href={item.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inspiration-list-title"
+                >
+                  {item.title} ↗
+                </a>
+              </li>
+            ))}
+          </ul>
         </section>
       ))}
     </div>

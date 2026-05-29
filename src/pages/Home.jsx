@@ -1,15 +1,9 @@
 import { useEffect } from 'react'
 import { loadAllPosts } from '../utils/posts'
 import BlogCard from '../components/BlogCard'
-import InspirationCard from '../components/InspirationCard'
-import inspiration from '../data/inspiration'
 import './Home.css'
 
 const posts = loadAllPosts().slice(0, 3)
-const recentInspiration = [...inspiration]
-  .sort((a, b) => (b.month ?? '').localeCompare(a.month ?? ''))
-  .slice(0, 3)
-
 function Home() {
   useEffect(() => {
     document.title = 'lauren brown | elbie'
@@ -57,16 +51,6 @@ function Home() {
         <div className="home-blog-grid">
           {posts.map(post => (
             <BlogCard key={post.slug} {...post} />
-          ))}
-        </div>
-      </section>
-
-      {/* Inspiration */}
-      <section className="home-inspiration">
-        <h2>inspiration</h2>
-        <div className="home-inspiration-grid">
-          {recentInspiration.map(item => (
-            <InspirationCard key={item.url} {...item} />
           ))}
         </div>
       </section>

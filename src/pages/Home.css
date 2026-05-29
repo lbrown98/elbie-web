@@ -104,36 +104,6 @@
   }
 }
 
-/* ── Inspiration section ──────────────────────── */
-
-.home-inspiration {
-  margin-bottom: 5rem;
-}
-
-.home-inspiration h2 {
-  font-size: 1.3rem;
-  color: var(--color-text);
-  margin-bottom: 1.25rem;
-}
-
-.home-inspiration-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
-}
-
-@media (max-width: 860px) {
-  .home-inspiration-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 560px) {
-  .home-inspiration-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
 /* ── Resume section ───────────────────────────── */
 
 .home-resume {
