@@ -15,6 +15,12 @@ const inspiration = [
     month: '2026-06',
   },
   {
+    title: 'If You Have Writer\'s Block, Maybe You Should Stop Lying - Sasha Chapin',
+    url: 'https://sashachapin.substack.com/p/if-you-have-writers-block-maybe-you',
+    type: 'blog',
+    month: '2026-06',
+  },
+  {
     title: 'How Convenience Kills Curiosity - JA Westenberg',
     url: 'https://www.joanwestenberg.com/how-convenience-kills-curiosity/',
     type: 'blog',
