@@ -3,6 +3,24 @@
 
 const inspiration = [
   {
+    title: 'The Laterals Band Website',
+    url: 'https://www.thelateralsband.com//',
+    type: 'website',
+    month: '2026-06',
+  },
+  {
+    title: 'Where have all the websites gone? - Jason Velazquez',
+    url: 'https://www.fromjason.xyz/p/notebook/where-have-all-the-websites-gone/',
+    type: 'blog',
+    month: '2026-06',
+  },
+  {
+    title: 'How Convenience Kills Curiosity - JA Westenberg',
+    url: 'https://www.joanwestenberg.com/how-convenience-kills-curiosity/',
+    type: 'blog',
+    month: '2026-06',
+  },
+  {
     title: 'At what point does delegation become self-erasure? - Todd Curtis',
     url: 'https://tactac.substack.com/p/at-what-point-does-delegation-become',
     type: 'blog',
