@@ -3,9 +3,9 @@
 
 const inspiration = [
   {
-    title: 'The Laterals Band Website',
-    url: 'https://www.thelateralsband.com//',
-    type: 'website',
+    title: 'On Grindslop - Will Manidis',
+    url: 'https://minutes.substack.com/p/on-grindslop/',
+    type: 'blog',
     month: '2026-06',
   },
   {
