@@ -9,8 +9,8 @@ const inspiration = [
     month: '2026-06',
   },
   {
-    title: 'Where have all the websites gone? - Jason Velazquez',
-    url: 'https://www.fromjason.xyz/p/notebook/where-have-all-the-websites-gone/',
+    title: 'Raw dog the open web! - Jason Velazquez',
+    url: 'https://www.fromjason.xyz/p/notebook/raw-dog-the-open-web/',
     type: 'blog',
     month: '2026-06',
   },
