@@ -2,6 +2,7 @@ import { useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
+import remarkBreaks from 'remark-breaks'
 import { loadPostBySlug } from '../utils/posts'
 import './BlogPost.css'
 
@@ -47,7 +48,7 @@ function BlogPost() {
       </header>
 
       <article className="blog-post-body">
-        <ReactMarkdown remarkPlugins={[remarkGfm]} components={{ a: ({node, href, ...props}) => {
+        <ReactMarkdown remarkPlugins={[remarkGfm, remarkBreaks]} components={{ a: ({node, href, ...props}) => {
             const isExternal = href?.startsWith('http')
             return <a href={href} {...props} {...(isExternal ? { target: '_blank', rel: 'noopener noreferrer' } : {})} />
           } }}>{post.body}</ReactMarkdown>
