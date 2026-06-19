@@ -1,6 +1,6 @@
 ---
 title: before the rain
-tags: musings, poetry
+tags: musings
 date: 2026-06-17
 description: .
 ---
