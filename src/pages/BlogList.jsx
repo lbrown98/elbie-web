@@ -66,9 +66,6 @@ function BlogList() {
           {filtered.map(post => (
             <li key={post.slug}>
               <Link to={`/blog/${post.slug}`} className="compact-title">{post.title}</Link>
-              {post.description && (
-                <p className="compact-desc">{post.description}</p>
-              )}
             </li>
           ))}
         </ul>

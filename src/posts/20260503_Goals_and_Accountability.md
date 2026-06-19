@@ -2,7 +2,6 @@
 title: i run quarterly reviews on myself and i'm not sorry
 tags: self-improvement
 date: 2026-05-03
-description: my goal-setting stack
 ---
 
 I returned from Taiwan with goals. Things I wanted to accomplish and ways I wanted to improve in order to take advantage of the stable environment I would be in for the next several years. Instead of letting life happen to me, I wanted to chase it and actively play a part in building my own future. 

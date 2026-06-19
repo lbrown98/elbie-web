@@ -6,7 +6,7 @@ function formatDate(dateStr) {
   return date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })
 }
 
-function BlogCard({ title, tags = [], date, description, slug }) {
+function BlogCard({ title, tags = [], date, slug }) {
   return (
     <Link to={`/blog/${slug}`} className="blog-card">
       <div className="blog-card-meta">
@@ -16,7 +16,6 @@ function BlogCard({ title, tags = [], date, description, slug }) {
         <span className="blog-card-date">{formatDate(date)}</span>
       </div>
       <h3 className="blog-card-title">{title}</h3>
-      <p className="blog-card-description">{description}</p>
     </Link>
   )
 }

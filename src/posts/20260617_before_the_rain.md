@@ -2,7 +2,6 @@
 title: before the rain
 tags: musings
 date: 2026-06-17
-description: .
 ---
 
 on a quiet autumn day,
