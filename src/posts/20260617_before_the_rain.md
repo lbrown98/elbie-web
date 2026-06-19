@@ -3,7 +3,6 @@ title: before the rain
 tags: musings
 date: 2026-06-17
 ---
-
 on a quiet autumn day,
 i rest on my steering wheel, melancholy,
 as youth chatter through the bus window.  

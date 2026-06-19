@@ -48,10 +48,24 @@ function BlogPost() {
       </header>
 
       <article className="blog-post-body">
-        <ReactMarkdown remarkPlugins={[remarkGfm, remarkBreaks]} components={{ a: ({node, href, ...props}) => {
+        <ReactMarkdown remarkPlugins={[remarkGfm, remarkBreaks]} components={{
+          a: ({node, href, children, ...props}) => {
             const isExternal = href?.startsWith('http')
-            return <a href={href} {...props} {...(isExternal ? { target: '_blank', rel: 'noopener noreferrer' } : {})} />
-          } }}>{post.body}</ReactMarkdown>
+            return <a href={href} {...props} {...(isExternal ? { target: '_blank', rel: 'noopener noreferrer' } : {})}>{children}</a>
+          },
+          img: ({node, alt, src, ...props}) => {
+            const isSmall = alt?.startsWith('small|')
+            const cleanAlt = isSmall ? alt.slice(6) : alt
+            return (
+              <img
+                src={src}
+                alt={cleanAlt}
+                {...props}
+                style={isSmall ? { maxWidth: 'min(100%, 280px)' } : undefined}
+              />
+            )
+          },
+        }}>{post.body}</ReactMarkdown>
       </article>
     </div>
   )
