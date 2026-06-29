@@ -1,5 +1,5 @@
 ---
-title: can freeedivers get the bends?
+title: can freedivers get the bends?
 tags: freediving
 date: 2026-06-22
 ---
