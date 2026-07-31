@@ -3,6 +3,24 @@
 
 const inspiration = [
   {
+    title: 'Be Thou Not Pilled - JA Westenberg',
+    url: 'https://www.joanwestenberg.com/be-thou-not-pilled/',
+    type: 'blog',
+    month: '2026-07',
+  },
+  {
+    title: 'Writing my obituary - Joseph Jude',
+    url: 'https://www.jjude.com/my-obituary/',
+    type: 'blog',
+    month: '2026-07',
+  },
+  {
+    title: 'Walk On, Even with the Doubts - Joseph Jude',
+    url: 'https://www.jjude.com/books/ww/walk-on-even/',
+    type: 'blog',
+    month: '2026-07',
+  },
+  {
     title: 'On Grindslop - Will Manidis',
     url: 'https://minutes.substack.com/p/on-grindslop/',
     type: 'blog',
