@@ -3,6 +3,12 @@
 
 const inspiration = [
   {
+    title: 'Walden - Henry David Thoreau',
+    url: 'https://www.barnesandnoble.com/w/walden-classics-henry-david-thoreau/1126967745?ean=9789358561203',
+    type: 'book',
+    month: '2026-08',
+  },
+  {
     title: 'What if I never find out? - kiki',
     url: 'https://storieswithkiki.substack.com/p/what-if-i-never-find-out',
     type: 'blog',
