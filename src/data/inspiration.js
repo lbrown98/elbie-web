@@ -3,6 +3,18 @@
 
 const inspiration = [
   {
+    title: 'What if I never find out? - kiki',
+    url: 'https://storieswithkiki.substack.com/p/what-if-i-never-find-out',
+    type: 'blog',
+    month: '2026-08',
+  },
+  {
+    title: 'Publishing your work increases your luck - Aaron Francis',
+    url: 'https://github.com/readme/guides/publishing-your-work',
+    type: 'blog',
+    month: '2026-08',
+  },
+  {
     title: 'Be Thou Not Pilled - JA Westenberg',
     url: 'https://www.joanwestenberg.com/be-thou-not-pilled/',
     type: 'blog',
