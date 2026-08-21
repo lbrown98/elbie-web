@@ -1,0 +1,63 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: Newsletter signup API — collects subscriber emails into DynamoDB
+
+Globals:
+  Function:
+    Timeout: 5
+    Runtime: nodejs20.x
+
+Resources:
+  SubscribersTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: !Sub '${AWS::StackName}-subscribers'
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - AttributeName: email
+          AttributeType: S
+      KeySchema:
+        - AttributeName: email
+          KeyType: HASH
+
+  SubscribeFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: index.handler
+      CodeUri: src/
+      Environment:
+        Variables:
+          TABLE_NAME: !Ref SubscribersTable
+      Policies:
+        - Version: '2012-10-17'
+          Statement:
+            - Effect: Allow
+              Action: dynamodb:PutItem
+              Resource: !GetAtt SubscribersTable.Arn
+      Events:
+        Subscribe:
+          Type: HttpApi
+          Properties:
+            ApiId: !Ref SubscribeApi
+            Path: /subscribe
+            Method: POST
+
+  SubscribeApi:
+    Type: AWS::Serverless::HttpApi
+    Properties:
+      StageName: '$default'
+      CorsConfiguration:
+        AllowOrigins:
+          - 'https://elbie.dev'
+        AllowMethods:
+          - POST
+        AllowHeaders:
+          - content-type
+      DefaultRouteSettings:
+        ThrottlingBurstLimit: 50
+        ThrottlingRateLimit: 10
+
+Outputs:
+  SubscribeApiUrl:
+    Description: POST this URL to subscribe an email
+    Value: !Sub 'https://${SubscribeApi}.execute-api.${AWS::Region}.amazonaws.com/subscribe'
