@@ -4,6 +4,7 @@ import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import remarkBreaks from 'remark-breaks'
 import { loadPostBySlug } from '../utils/posts'
+import NewsletterSignup from '../components/NewsletterSignup'
 import './BlogPost.css'
 
 function formatDate(dateStr) {
@@ -67,6 +68,8 @@ function BlogPost() {
           },
         }}>{post.body}</ReactMarkdown>
       </article>
+
+      <NewsletterSignup />
     </div>
   )
 }

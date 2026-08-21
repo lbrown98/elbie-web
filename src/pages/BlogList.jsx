@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { FaTh, FaList } from 'react-icons/fa'
 import { loadAllPosts } from '../utils/posts'
 import BlogCard from '../components/BlogCard'
+import NewsletterSignup from '../components/NewsletterSignup'
 import './BlogList.css'
 
 const allPosts = loadAllPosts()
@@ -70,6 +71,8 @@ function BlogList() {
           ))}
         </ul>
       )}
+
+      <NewsletterSignup />
     </div>
   )
 }
