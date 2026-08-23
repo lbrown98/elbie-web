@@ -2,14 +2,26 @@ AWSTemplateFormatVersion: '2010-09-09'
 Transform: AWS::Serverless-2016-10-31
 Description: Newsletter signup API — collects subscriber emails into DynamoDB
 
+Parameters:
+  AlertEmail:
+    Type: String
+    Default: laurenebrown98@gmail.com
+    Description: Email address that receives billing alerts and new-subscriber notifications.
+  MonthlyBudgetUsd:
+    Type: Number
+    Default: 5
+    Description: Monthly account spend (USD) that triggers a billing alert.
+
 Globals:
   Function:
     Timeout: 5
-    Runtime: nodejs20.x
+    Runtime: nodejs24.x
 
 Resources:
   SubscribersTable:
     Type: AWS::DynamoDB::Table
+    DeletionPolicy: Retain
+    UpdateReplacePolicy: Retain
     Properties:
       TableName: !Sub '${AWS::StackName}-subscribers'
       BillingMode: PAY_PER_REQUEST
@@ -28,12 +40,16 @@ Resources:
       Environment:
         Variables:
           TABLE_NAME: !Ref SubscribersTable
+          TOPIC_ARN: !Ref SubscriberNotifications
       Policies:
         - Version: '2012-10-17'
           Statement:
             - Effect: Allow
               Action: dynamodb:PutItem
               Resource: !GetAtt SubscribersTable.Arn
+            - Effect: Allow
+              Action: sns:Publish
+              Resource: !Ref SubscriberNotifications
       Events:
         Subscribe:
           Type: HttpApi
@@ -54,8 +70,52 @@ Resources:
         AllowHeaders:
           - content-type
       DefaultRouteSettings:
-        ThrottlingBurstLimit: 50
-        ThrottlingRateLimit: 10
+        ThrottlingBurstLimit: 10
+        ThrottlingRateLimit: 2
+
+  # Emails AlertEmail on each new signup
+  SubscriberNotifications:
+    Type: AWS::SNS::Topic
+    Properties:
+      TopicName: !Sub '${AWS::StackName}-new-subscriber'
+      DisplayName: elbie signups
+      Subscription:
+        - Protocol: email
+          Endpoint: !Ref AlertEmail
+
+  SubscribeFunctionLogGroup:
+    Type: AWS::Logs::LogGroup
+    Properties:
+      LogGroupName: !Sub '/aws/lambda/${SubscribeFunction}'
+      RetentionInDays: 14
+
+  BillingAlarm:
+    Type: AWS::Budgets::Budget
+    Properties:
+      Budget:
+        BudgetName: !Sub '${AWS::StackName}-monthly-cost'
+        BudgetType: COST
+        TimeUnit: MONTHLY
+        BudgetLimit:
+          Amount: !Ref MonthlyBudgetUsd
+          Unit: USD
+      NotificationsWithSubscribers:
+        - Notification:
+            NotificationType: ACTUAL
+            ComparisonOperator: GREATER_THAN
+            Threshold: 80
+            ThresholdType: PERCENTAGE
+          Subscribers:
+            - SubscriptionType: EMAIL
+              Address: !Ref AlertEmail
+        - Notification:
+            NotificationType: FORECASTED
+            ComparisonOperator: GREATER_THAN
+            Threshold: 100
+            ThresholdType: PERCENTAGE
+          Subscribers:
+            - SubscriptionType: EMAIL
+              Address: !Ref AlertEmail
 
 Outputs:
   SubscribeApiUrl:

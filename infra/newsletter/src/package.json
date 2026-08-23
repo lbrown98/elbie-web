@@ -1,8 +1,10 @@
 {
   "name": "newsletter-subscribe",
+  "version": "1.0.0",
   "private": true,
   "type": "module",
   "dependencies": {
-    "@aws-sdk/client-dynamodb": "^3.600.0"
+    "@aws-sdk/client-dynamodb": "^3.600.0",
+    "@aws-sdk/client-sns": "^3.600.0"
   }
 }
