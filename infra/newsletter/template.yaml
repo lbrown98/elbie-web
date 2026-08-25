@@ -64,6 +64,7 @@ Resources:
       StageName: '$default'
       CorsConfiguration:
         AllowOrigins:
+          - 'https://www.elbie.dev'
           - 'https://elbie.dev'
         AllowMethods:
           - POST
