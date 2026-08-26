@@ -27,6 +27,7 @@ infra/newsletter/.aws-sam/
 infra/newsletter/src/node_modules/
 infra/newsletter/samconfig.toml
 infra/newsletter/README.md
+infra/newsletter/list-subscribers.sh
 
 
 # logs
