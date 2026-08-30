@@ -41,6 +41,5 @@ as she gathers leaves
 and tosses them into the air,
 i feel protective.
 let her believe in the magic of the world.
-time and knowledge march infinitely forward.
-her time is now
-
+time and knowledge march infinitely forward
+but she is now

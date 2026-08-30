@@ -29,6 +29,3 @@ Thanks for reading! Feel free to reach out, socials are in the footer.
 
 
 [^1]: KAIZEN FREEDIVING, "Every Freediver MUST Know About Decompression Sickness in Freediving," YouTube, October 13, 2020, https://www.youtube.com/watch?v=boJfF9PQxoM; Organized Biology, "Diving Physiology (‘The Bends’)- Explained Simply!," YouTube, June 18, 2024, https://www.youtube.com/watch?v=k64AKBGT_SE.
-
-
-
