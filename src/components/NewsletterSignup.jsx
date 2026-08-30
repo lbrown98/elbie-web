@@ -27,7 +27,7 @@ function NewsletterSignup() {
 
   return (
     <div className="newsletter">
-      <p className="newsletter-label">get notified when i publish a new post</p>
+      <p className="newsletter-label">get notified when i publish something new</p>
 
       {status === 'success' ? (
         <p className="newsletter-msg newsletter-msg--ok">you're in — thanks for subscribing.</p>
