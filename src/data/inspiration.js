@@ -3,6 +3,24 @@
 
 const inspiration = [
   {
+    title: 'Karl Marx and Why Societies Stop Growing - Peter D\'Autry',
+    url: 'https://medium.com/philosophytoday/karl-marx-and-why-societies-stop-growing-1cd169509667',
+    type: 'blog',
+    month: '2026-09',
+  },
+  {
+    title: 'The Machines are Gaining Ground on Us - George Dillard',
+    url: 'https://medium.com/the-academic/the-machines-are-gaining-ground-on-us-686ca2d24597',
+    type: 'blog',
+    month: '2026-09',
+  },
+  {
+    title: 'If You Choose It, Does That Mean You Want It? - George Dillard',
+    url: 'https://medium.com/the-academic/if-you-choose-it-does-that-mean-you-want-it-f5ff7e763b5d',
+    type: 'blog',
+    month: '2026-09',
+  },
+  {
     title: 'Walden - Henry David Thoreau',
     url: 'https://www.barnesandnoble.com/w/walden-classics-henry-david-thoreau/1126967745?ean=9789358561203',
     type: 'book',
